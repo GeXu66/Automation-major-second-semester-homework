@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ctex}
+\usepackage{graphicx}
+\begin{document}
+\title{第九次作业}
+\maketitle
+\[\begin{gathered}
+  1.bilinear: \hfill \\
+  (\left[ \begin{gathered}
+  {x_1} \hfill \\
+  {x_2} \hfill \\
+\end{gathered}  \right],\left[ \begin{gathered}
+  {y_1} \hfill \\
+  {y_2} \hfill \\
+\end{gathered}  \right] + \left[ \begin{gathered}
+  {z_1} \hfill \\
+  {z_2} \hfill \\
+\end{gathered}  \right]) = (\left[ \begin{gathered}
+  {x_1} \hfill \\
+  {x_2} \hfill \\
+\end{gathered}  \right],\left[ \begin{gathered}
+  {y_1} \hfill \\
+  {y_2} \hfill \\
+\end{gathered}  \right]) + (\left[ \begin{gathered}
+  {x_1} \hfill \\
+  {x_2} \hfill \\
+\end{gathered}  \right],\left[ \begin{gathered}
+  {z_1} \hfill \\
+  {z_2} \hfill \\
+\end{gathered}  \right]) = |{x_1}{y_1}| + |{x_2}{y_2}| + |{x_1}{z_1}| + |{x_2}{z_2}| \hfill \\
+  (\left[ \begin{gathered}
+  {x_1} \hfill \\
+  {x_2} \hfill \\
+\end{gathered}  \right],\left[ \begin{gathered}
+  {y_1} \hfill \\
+  {y_2} \hfill \\
+\end{gathered}  \right] + \left[ \begin{gathered}
+  {z_1} \hfill \\
+  {z_2} \hfill \\
+\end{gathered}  \right]) = (\left[ \begin{gathered}
+  {x_1} \hfill \\
+  {x_2} \hfill \\
+\end{gathered}  \right],\left[ \begin{gathered}
+  {y_1} + {z_1} \hfill \\
+  {y_2} + {z_2} \hfill \\
+\end{gathered}  \right]) = |{x_1}({y_1} + {z_1})| + |{x_2}({y_2} + {z_2})| \hfill \\
+   = |{x_1}{y_1} + {x_1}{z_1}| + |{x_2}{y_2} + {x_2}{z_2}| \leqslant |{x_1}{y_1}| + |{x_2}{y_2}| + |{x_1}{z_1}| + |{x_2}{z_2}| \hfill \\
+  {\text{so it does't satisfy bilinear,it's not an inner product}}{\text{.}} \hfill \\
+\end{gathered} \]
+\[\begin{gathered}
+  2.(1)(u + v,u - v) = (u,u) - (u,v) + (v,u) - (v,v) \hfill \\
+   = ||u|{|^2} - ||v|{|^2} \hfill \\
+  (2){\text{if u,v have the same norm,then }}||u|| = ||v|| \hfill \\
+  (u + v,u - v) = ||u|{|^2} - ||v|{|^2} = 0 \hfill \\
+  {\text{so u + v is orthogonal to u - v}} \hfill \\
+  {\text{(3)let u and v be two side length of a rhombus,}} \hfill \\
+  {\text{then u + v and u - v are two digonals of the rhombus,and the length of u and v are same}}{\text{.}} \hfill \\
+  {\text{so }}(u + v,u - v) = ||u|{|^2} - ||v|{|^2} = 0,{\text{so the diagonals of the rhombus are perpendicular}}{\text{.}} \hfill \\
+\end{gathered} \]
+\[\begin{gathered}
+  3.||u|| \leqslant ||u + av|| \Rightarrow ||u|{|^2} \leqslant ||u + av|{|^2} \hfill \\
+  0 \leqslant 2a(u,v) + {a^2}{v^2} \hfill \\
+  f(a) = {a^2}{v^2} + 2a(u,v) = 0 \hfill \\
+  then{\text{ }}{a_1} = 0,{a_2} = \frac{{ - 2(u,v)}}{{||v|{|^2}}} \hfill \\
+  {\text{and between }}{a_1}{\text{ and }}{a_2},f(a) < 0 \hfill \\
+  {\text{so if }}f(a) \geqslant 0{\text{ to }}\forall {\text{a}} \in {\text{R,then (u,v) = 0}} \hfill \\
+\end{gathered} \]
+
+\end{document}

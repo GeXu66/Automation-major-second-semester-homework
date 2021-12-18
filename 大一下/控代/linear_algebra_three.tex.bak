@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{ctex}
+\begin{document}
+\title{第二次作业}
+\author{葛旭}
+\maketitle
+1.\[\begin{gathered}
+  {\omega _1} = {\omega _2} = 0,{\text{so }}\vec 0{\text{ vector is in }}\left[ \begin{gathered}
+  {\omega _1} \hfill \\
+  {\omega _2} \hfill \\
+\end{gathered}  \right] \hfill \\
+  {\text{addition}}:\left[ \begin{gathered}
+  {\omega _1} \hfill \\
+  {\omega _2} \hfill \\
+\end{gathered}  \right] + \left[ \begin{gathered}
+  {\omega _3} \hfill \\
+  {\omega _4} \hfill \\
+\end{gathered}  \right] = \left[ \begin{gathered}
+  {\omega _1} + {\omega _3} \hfill \\
+  {\omega _2} + {\omega _4} \hfill \\
+\end{gathered}  \right] \hfill \\
+  \omega _{\text{1}}^{\text{2}}{\text{ = }}\omega _{\text{2}}^{\text{2}},\omega _{\text{3}}^{\text{2}}{\text{ = }}\omega _{\text{4}}^{\text{2}} \hfill \\
+  \frac{{{\omega _1}}}{{{\omega _2}}} =  \pm 1,\frac{{{\omega _3}}}{{{\omega _4}}} =  \pm 1({\text{except for }}\vec 0{\text{ vector}}) \hfill \\
+  {\text{so }}\frac{{{\omega _1}}}{{{\omega _2}}}{\text{ may not be equal to }}\frac{{{\omega _4}}}{{{\omega _3}}} \hfill \\
+   \Rightarrow {\omega _1}{\omega _3}{\text{ may not be equal to }}{\omega _2}{\omega _4} \hfill \\
+   \Rightarrow {({\omega _1} + {\omega _3})^2}{\text{may not be equal to}}{({\omega _2} + {\omega _4})^2} \hfill \\
+   \Rightarrow {\text{so S is not closed under vector addition}} \hfill \\
+  {\text{S is not a subspace of }}{{\text{R}}^2} \hfill \\
+\end{gathered} \]
+2.\[\begin{gathered}
+  {\text{define }}f:R \to R,f(x) \equiv 0, \hfill \\
+  {\text{so }}f(t) = f( - t) = 0,{\text{so }}\vec 0{\text{ vector is in X}} \hfill \\
+  {\text{addition:(}}{f_1}{\text{ + }}{f_2}{\text{)(t) = }}{f_1}(t) + {f_2}(t) = {f_1}( - t) + {f_2}( - t) = {\text{(}}{f_1}{\text{ + }}{f_2}{\text{)(}} - {\text{t)}} \hfill \\
+  {\text{so }}f{\text{ is closed under addition}}{\text{.}} \hfill \\
+  {\text{scalar multiplication:(}}kf{\text{)(t) = }}kf(t) = kf( - t) = (kf)( - t) \hfill \\
+  {\text{so }}f{\text{ is closed ubder scalar multiplication}}{\text{.}} \hfill \\
+  {\text{so X is a subspace of real - valued functions}}{\text{.}} \hfill \\
+\end{gathered} \]
+\end{document}

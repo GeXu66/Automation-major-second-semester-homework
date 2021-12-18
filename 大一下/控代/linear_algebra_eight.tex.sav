@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ctex}
+\usepackage{graphicx}
+\begin{document}
+\title{第八次作业}
+\maketitle
+1.$(2x)^2+(3y)^2=1$\\
+\begin{figure}[!h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[scale=0.7]{8_1.eps}\\
+  \caption{$(2x)^2+(3y)^2=1$}
+\end{figure}\\
+2.\[F\left[ \begin{gathered}
+  x \hfill \\
+  y \hfill \\
+\end{gathered}  \right] = \left[ \begin{gathered}
+  xy \hfill \\
+  y \hfill \\
+\end{gathered}  \right] \Rightarrow F\left[ \begin{gathered}
+  2 \hfill \\
+  y \hfill \\
+\end{gathered}  \right] = \left[ \begin{gathered}
+  2y \hfill \\
+  y \hfill \\
+\end{gathered}  \right]\]
+\begin{figure}[!h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[scale=0.7]{8_2.eps}\\
+\end{figure}
+4.\[\begin{gathered}
+  T(x + y) = T(x) + T(y) = 0 \hfill \\
+  T(kx) = kT(x) = 0 \hfill \\
+   \Rightarrow x + y \in V,kx \in V \hfill \\
+  {\text{so }}\{ x \in V|T(x) = 0\} {\text{ is a subspace of }}V \hfill \\
+\end{gathered} \]
+5.
+\end{document}

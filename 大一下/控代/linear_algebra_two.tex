@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{ctex}
+\begin{document}
+\title{第二次作业}
+\author{葛旭}
+\maketitle
+1.\[\begin{gathered}
+  {\text{define }}f{\text{:}}{R^n} \to {P^{n - 1}} \hfill \\
+  f(x) = {a_0} + {a_1}x +  \cdot  \cdot  \cdot  + {a_{n - 1}}{x^{n - 1}},{\text{and }}x = {({a_0},{a_1}, \cdot  \cdot  \cdot ,{a_{n - 1}})^T} \hfill \\
+  {\text{one - to - one:every column vector }}x = {({a_0},{a_1}, \cdot  \cdot  \cdot ,{a_{n - 1}})^T}{\text{ uniquely pins a polynomial}} \hfill \\
+  {a_0} + {a_1}x +  \cdot  \cdot  \cdot  + {a_{n - 1}}{x^{n - 1}} \hfill \\
+  {\text{onto:}}\forall {\text{polynomial }}{a_0} + {a_1}x +  \cdot  \cdot  \cdot  + {a_{n - 1}}{x^{n - 1}},{\text{there is a column vector }}x = {({a_0},{a_1}, \cdot  \cdot  \cdot ,{a_{n - 1}})^T} \hfill \\
+  {\text{in }}{R^n},{\text{fullfilling   }}f(x) = {a_0} + {a_1}x +  \cdot  \cdot  \cdot  + {a_{n - 1}}{x^{n - 1}} \hfill \\
+  {\text{Linear:(1)}}f(x + y) = ({a_0} + {b_0}) + ({a_1} + {b_1})x +  \cdot  \cdot  \cdot  + ({a_{n - 1}} + {b_{n - 1}}){x^{n - 1}} \hfill \\
+   = {a_0} + {a_1}x +  \cdot  \cdot  \cdot  + {a_{n - 1}}{x^{n - 1}} + {b_0} + {b_1}x +  \cdot  \cdot  \cdot  + {b_{n - 1}}{x^{n - 1}} = f(x) + f(y) \hfill \\
+  (2)f(kx) = k{a_0} + k{a_1}x +  \cdot  \cdot  \cdot  + k{a_{n - 1}}{x^{n - 1}} = kf(x) \hfill \\
+  {\text{so }}{R^n}{\text{ and }}{P^{n - 1}}{\text{ over the same field R (the field of real numbers) are isomorphic}}{\text{.}} \hfill \\
+\end{gathered} \]
+2.\[\begin{gathered}
+  {\text{suppose    }}\left[ \begin{gathered}
+  {a_{11}}\cdot\cdot\cdot{a_{1k}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{m1}}\cdot\cdot\cdot{a_{mk}} \hfill \\
+\end{gathered}  \right]{\text{    as a vector of X,mk = n}} \hfill \\
+  {\text{Let }}f:X \to {R^n}{\text{, }}\left[ \begin{gathered}
+  {a_{11}}\cdot\cdot\cdot{a_{1k}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{m1}}\cdot\cdot\cdot{a_{mk}} \hfill \\
+\end{gathered}  \right]{\text{ }} = \left[ \begin{gathered}
+  {a_{11}} \hfill \\
+  {a_{12}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{mk}} \hfill \\
+\end{gathered}  \right] \hfill \\
+  \left[ \begin{gathered}
+  {a_{11}}{\text{ + }}{{\text{b}}_{11}}\cdot\cdot\cdot{a_{1k}} + {b_{1k}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{m1}}{\text{ + }}{{\text{b}}_{m1}}\cdot\cdot\cdot{a_{mk}} + {b_{mk}} \hfill \\
+\end{gathered}  \right] = \left[ \begin{gathered}
+  {a_{11}} \hfill \\
+  {a_{12}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{mk}} \hfill \\
+\end{gathered}  \right] + \left[ \begin{gathered}
+  {b_{11}} \hfill \\
+  {b_{12}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {b_{mk}} \hfill \\
+\end{gathered}  \right] \hfill \\
+  \left[ \begin{gathered}
+  c{a_{11}}\cdot\cdot\cdot{a_{1k}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  c{a_{m1}}\cdot\cdot\cdot{a_{mk}} \hfill \\
+\end{gathered}  \right] = \left[ \begin{gathered}
+  c{a_{11}} \hfill \\
+  c{a_{12}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  c{a_{mk}} \hfill \\
+\end{gathered}  \right] = c\left[ \begin{gathered}
+  {a_{11}} \hfill \\
+  {a_{12}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{mk}} \hfill \\
+\end{gathered}  \right] \hfill \\
+  {\text{so  }}f{\text{ fulfils one - to - one and onto and linear}} \hfill \\
+  {\text{moreover we can define }}g:X \to {R^n},\left[ \begin{gathered}
+  {a_{11}}\cdot\cdot\cdot{a_{1k}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{m1}}\cdot\cdot\cdot{a_{mk}} \hfill \\
+\end{gathered}  \right]{\text{ }} = \left[ \begin{gathered}
+  {a_{mk}} \hfill \\
+  {a_{m(k - 1)}} \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  \cdot \hfill \\
+  {a_{11}} \hfill \\
+\end{gathered}  \right] \hfill \\
+  {\text{so the map is not unique}} \hfill \\
+  {\text{in a word,each finite - dimensional linear space X over field K is isomorphic to }}{{\text{K}}^n}{\text{, n =  dimX}} \hfill \\
+  {\text{and this isomorphism is not unique}}. \hfill \\
+\end{gathered} \]
+
+\end{document}
